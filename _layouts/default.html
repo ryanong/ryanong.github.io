@@ -10,37 +10,53 @@
         <link rel="stylesheet" href="/css/syntax.css">
 
         <!-- Custom CSS -->
+        <link href='http://fonts.googleapis.com/css?family=Josefin+Slab' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="/css/main.css">
 
     </head>
     <body>
-
-        <div class="container">
-          <div class="site">
-            <div class="header">
-              <h1 class="title"><a href="/">{{ site.name }}</a></h1>
-              <a class="extra" href="/">home</a>
-            </div>
-
-                {{ content }}
-
-            <div class="footer">
-              <div class="contact">
-                <p>
-                  Ryan Ong<br />
-                  Journey Man, Burner, Programmer, Creator<br />
-                  ryanong@gmail.com
-                </p>
-              </div>
-              <div class="contact">
-                <p>
-                  <a href="http://github.com/ryanong/">github.com/ryanong</a><br />
-                  <a href="http://twitter.com/ryanmong/">twitter.com/ryanmong</a><br />
-                </p>
-              </div>
-            </div>
-          </div>
-        </div> <!-- /container -->
-
+      <aside>
+        <h1>Ryan Ong</h1>
+        <nav>
+          <a href="#code">code</a>
+          <ul id="code">
+            <li>spy<div>ruby mocking library</div></li>
+            <li>mongoid_spacial<div>geospatial extention</div></li>
+            <li>bit_mask<div>ruby bit masking dsl</div></li>
+          </ul>
+          <a href="#communities">communities</a>
+          <ul id="communities">
+            <li>reddit nyc<div>meetup founder</div></li>
+            <li>figment<div>F&C lead</div></li>
+            <li>royal safarians<div>co-lead</div></li>
+            <li>couchsurfing<div>organizer</div></li>
+            <li>mabimods<div>founder</div></li>
+          </ul>
+          <a href="#creative">creative</a>
+          <ul id="creative">
+            <li>the rong journey<div>traveler</div></li>
+            <li>connecting-light<div>developer</div></li>
+            <li>delta-life<div>creator</div></li>
+            <li>word<div>writer</div></li>
+          </ul>
+          <a href="#clients">clients</a>
+          <ul id="clients">
+            <li>Sealed Homes</li>
+            <li>Efficiency 2.0</li>
+            <li>Unpakt</li>
+            <li>CarZen</li>
+            <li>Case Commons</li>
+            <li>Shiseido</li>
+          </ul>
+        </nav>
+        <p>ryanong@gmail.com</p>
+        <p><a href="/RyanOngResume.pdf">resume.pdf</a></p>
+      </aside>
+      <section>
+      {{ content }}
+      </section>
+      <footer>
+        <a href="http://github.com/ryanong/">github.com/ryanong</a><br />
+      </footer>
     </body>
 </html>
